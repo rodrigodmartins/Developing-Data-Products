@@ -13,17 +13,3 @@ myWine<-function(dens=NULL,totso2=NULL,rs=NULL,alc=NULL){
     if(as.numeric(pred)==1){pred<-replace(pred, pred==1, "Red")}else{pred<-replace(pred, pred==2, "White")}
     as.character(pred)
 }
-
-
-library(shiny)
-shinyServer(
-    function(input, output) {
-        output$dens<-renderPrint({input$dens})
-        output$totso2<-renderPrint({input$totso2})
-        output$rs<-renderPrint({input$rs})
-        output$alc<-renderPrint({input$alc})
-        output$predic<-renderText({input$goButton
-                                   isolate(myWine(dens=input$dens,totso2=input$totso2,rs=input$rs,alc=input$alc))})
-        
-    }
-)
