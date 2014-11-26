@@ -4,6 +4,10 @@ author: Rodrigo Martins
 date: November 24, 2014
 transition: rotate
 
+***
+![alt text](wine.jpg)
+
+
 PROJECT SUMMARY
 ========================================================
 transition: rotate
@@ -24,9 +28,13 @@ transition: rotate
 
 The created function, **myWine**, is pretty lengthy, and would not be appropriately viewed in a slide.
 
-For this reason, it was made available in the file **myWine.R**, at GitHub.
+For this reason, the code was made available in the file **myWine.R**, at GitHub.
 
-Please visit : https://github.com/rodrigodmartins/Developing-Data-Products
+Please visit : 
+
+https://github.com/rodrigodmartins/Developing-Data-Products  (repository)
+
+https://github.com/rodrigodmartins/Developing-Data-Products/blob/master/myWine.R    (Code script)
 
 
 myWine FUNCTION IN ACTION

@@ -53,7 +53,7 @@ shinyUI(pageWithSidebar(
                      tags$li("Density = 0.995g/mL, Total sulfur dioxide = 50mg/L, Residual sugar = 3g/L and Alcohol = 10%, is a typical set of characteristics of 'red wine'."),
                      tags$li("Density = 1.002g/mL, Total sulfur dioxide = 210mg/L, Residual sugar = 17g/L and Alcohol = 10%, is a typical set of characteristics of 'white wine'."),
                      tags$li("Density = 1.002g/mL, Total sulfur dioxide = 120mg/L, Residual sugar = 3g/L and Alcohol = 10%, is a typical set of characteristics of 'red wine'."), tags$br(),
-                     tags$p("Now it is your tun ! Try it !"),
+                     tags$p("Now it is your turn ! Try it !"),
                      tags$p("I hope you enjoy it !"),
                      tags$br(),tags$br()
         )
